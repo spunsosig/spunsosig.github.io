@@ -1,0 +1,70 @@
+body{
+    background-color: #00224AFF;
+    font-family: sans-serif;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    padding-inline: 20px;
+    padding-top: 30px
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand{
+    padding-right: 20px;
+}
+
+.center-page{
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.center-page h1, h2{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+
+.profile-pic{
+    justify-content: center;
+    width: 100px;
+    border-radius: 100px;
+}
+
+br {
+    content: '\A';
+    display: contents;
+    white-space: pre;
+  }
+
+.about-me{
+    background-color: white;
+    font-size: 24px;
+    padding: 20px;
+    /* height: 700px; */
+}
+
+.myImage{
+    padding: 10px;
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.about-me-text{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
