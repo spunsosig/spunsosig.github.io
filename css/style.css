@@ -49,6 +49,7 @@ br {
   }
 
 .about-me{
+    padding-top: calc(100vh - 100px) ;
     background-color: white;
     font-size: 24px;
     padding: 20px;

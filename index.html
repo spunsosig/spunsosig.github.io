@@ -1,78 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    
-    <script src="https://kit.fontawesome.com/3eb214850d.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/3eb214850d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <link rel="stylesheet" href="css/style.css">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ikram Ahmed</title>
-</head>
-<body>
-    <navbar class="navbar-collapse navbar-dark bg-dark">
-            <ul class="nav justify-content-center">
-                <li class="navbar-brand">
-                    <a href="#"><img width="auto" height="125px" src="images/logo2.png" alt=""></a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact Me</a>
-                </li>
-            </ul>
+  </head>
+  <body>
+    <navbar class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"
+        ><img width="auto" height="125px" src="images/logo2.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </div>
     </navbar>
-    
-    <div class="center-page">
-        <h1 data-aos="fade-up" data-aos-duration="1000">Hello! I am Ikram...</h1>
-        <br><br />
-        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">Junior developer</h2>
-        <br><br />
-        <a href="#about-me"><i data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" class="fa-solid fa-circle-chevron-down fa-beat-fade fa-2xl" style="color: #ffffff; padding-top: 20px;"></i></a>
+
+    <div class="center-page" style="padding-bottom: calc(100vh - 100vh / 2)">
+      <h1 data-aos="fade-up" data-aos-duration="1000">Hello! I am Ikram...</h1>
+      <br /><br />
+      <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+        Junior developer
+      </h2>
+      <br /><br />
+      <a href="#about-me"
+        ><i
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+          class="fa-solid fa-circle-chevron-down fa-beat-fade fa-2xl"
+          style="color: #ffffff; padding-top: 20px"
+        ></i
+      ></a>
     </div>
 
     <div class="container-fluid about-me">
-        <div class="row justify-content-center" style="height: auto">
-            <div class="col-4" class="about-me-text">
-                <h1 id="about-me" data-aos="fade-up" data-aos-duration="1000">About Me</h1>
-                <p data-aos="fade-right" data-aos-duration="1000" >I am currently a Computer Science student, studying at aston university. Ambition and passion is what allows me to stand out from my colleagues, and my willingness to take on any challenge.</p>
-                <br><br />
-            </div>
-            <div class="col-4 justify-content-center">
-                <img data-aos="fade-left" data-aos-duration="1000" class="myImage" src="images/me.jpg" alt="">
-            </div>
+      <div class="row justify-content-center" style="height: auto">
+        <div class="col-4" class="about-me-text">
+          <h1
+            id="about-me"
+            style="font-size: 4vh"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            About Me
+          </h1>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            style="font-size: 2vh"
+          >
+            I am currently a Computer Science student, studying at aston
+            university. Ambition and passion is what allows me to stand out from
+            my colleagues, and my willingness to take on any challenge.
+          </p>
+          <br /><br />
         </div>
+        <div class="col-4 justify-content-center">
+          <img
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            class="myImage"
+            src="images/me.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
 
     <footer class="text-light py-3">
-        <div class="container d-flex justify-content-center align-items-center">
-          <a href="https://github.com/spunsosig"><i class="fab fa-github" style="color: #ffffff;"></i></a>
-          <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>
-          <a href="https://mail.google.com/mail/u/0/#inbox"><i class="far fa-envelope" style="color: #ffffff;"></i></a>
-        </div>
-        <div class="container d-flex justify-content-center align-items-center">
-            <p class="mb-0">Ikram Ahmed &copy; 2021</p>
-        </div>
-      </footer>
-      
+      <div class="container d-flex justify-content-center align-items-center">
+        <a href="https://github.com/spunsosig"
+          ><i class="fab fa-github" style="color: #ffffff"></i
+        ></a>
+        <a href="https://www.linkedin.com/feed/"
+          ><i class="fab fa-linkedin" style="color: #ffffff"></i
+        ></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox"
+          ><i class="far fa-envelope" style="color: #ffffff"></i
+        ></a>
+      </div>
+      <div class="container d-flex justify-content-center align-items-center">
+        <p class="mb-0">Ikram Ahmed &copy; 2021</p>
+      </div>
+    </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
+  </body>
 </html>
